@@ -1,0 +1,122 @@
+
+.taco{
+max-width : 540px;
+}
+
+.h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(70, 70, 70);
+  margin-top: 150px;
+}
+
+.imageSize {
+  width: 180px;
+  margin-top:  20px;
+  margin-left: 15px;
+  padding-right: 15px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(70, 70, 70);
+  border-bottom: 2px solid rgb(70, 70, 70);
+  margin: 60px 0;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid-item {
+  padding: 20px;
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px rgba(17, 17, 17, 0.404);
+}
+
+.nonprofit-name {
+  color: rgb(70, 70, 70);
+  text-align: center;
+  padding-right: 16px;
+  margin: 10px 0;
+}
+
+.nonprofit-about {
+  font-style: italic;
+  font-size: 15px;
+  padding-right: 16px;
+  text-align: justify;
+  margin: 0 0 20px;
+}
+
+.btn {
+  margin: auto;
+}
+
+@media screen and (max-width: 1954px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .grid-item {
+    padding: 5px;
+    margin: 40px 50px 0;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 10px;
+    margin-left: 40px;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 10px;
+  }
+  .grid-item {
+    padding: 5px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: 20px;
+    width: 230px;
+    
+  }
+  .imageSize {
+    width: 180px;
+    margin-top:  20px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+}
